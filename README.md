@@ -10,7 +10,7 @@ I dropped this file into a VS Outlook addin project, and built a ribbon customiz
 
 ### Usage:
 
-	Redirect.AutoReply(RedirectionAddress as String, EmailToBeRepliedTo as MailItem, Debug as Boolean)
+	Redirect.AutoReply(RedirectionAddress as String, EmailToBeRepliedTo as MailItem, (Optional) Debug as Boolean)
 	
 
 ### Examples:
