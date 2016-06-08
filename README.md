@@ -8,12 +8,12 @@ This is a short VB function I made a while ago; I probably pulled parts of it fr
 I dropped this file into a VS Outlook addin project, and built a ribbon customization for both the Explorer and ReadMail windows using an appropriate icon. I've added the icon I used to the repository as `Redirect.png`.
 
 
-## Usage:
+### Usage:
 
 	Redirect.AutoReply(RedirectionAddress as String, EmailToBeRepliedTo as MailItem, Debug as Boolean)
 	
 
-## Examples:
+### Examples:
 
 #### Explorer:
 	
