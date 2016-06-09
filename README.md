@@ -57,9 +57,9 @@ Note: this approach uses Visual Basic for Applications, so *should* be compatibl
 
 ### Examples:
 
-Note: If using the macro version, remove `Globals.ThisAddin.` from the function call.
+#### For an Add-In:
 
-#### Explorer:
+###### Explorer:
 	
 	Private Sub Redirect_Explorer_Ribbon_Button_Click(sender As Object, e As RibbonControlEventArgs) Handles Redirect_Explorer_Ribbon_Button.Click
 
@@ -67,10 +67,29 @@ Note: If using the macro version, remove `Globals.ThisAddin.` from the function 
 
     End Sub
 
-#### ReadMail:
+###### ReadMail:
 
 	 Private Sub Redirect_Ribbon_Button_Click(sender As Object, e As RibbonControlEventArgs) Handles Redirect_Ribbon_Button.Click
 
         Redirect.AutoReply("distribution@company.com", Globals.ThisAddIn.Application.ActiveInspector.CurrentItem, False)
 
     End Sub
+	
+#### For an Macro:
+
+###### Explorer:
+	
+	Public Sub Send_from_Explorer()
+
+        AutoReply("distribution@company.com", ActiveExplorer.Selection(1), False)
+
+    End Sub
+
+###### ReadMail:
+
+	 Public Sub Send_from_ReadMail()
+
+        AutoReply("distribution@company.com", ActiveInspector.CurrentItem, False)
+
+    End Sub
+	
