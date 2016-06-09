@@ -75,7 +75,7 @@ Note: this approach uses Visual Basic for Applications, so *should* be compatibl
 
     End Sub
 	
-#### For an Macro:
+#### For a Macro:
 
 ###### Explorer:
 	
