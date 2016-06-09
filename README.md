@@ -15,7 +15,7 @@ Using an add-in should simplify larger deployments.
 
 * Create a new Visual Studio Outlook addin project. You may require the [Visual Studio Tools for Office add-in](https://msdn.microsoft.com/en-us/library/d2tx7z6d.aspx).
 
-* Add the `Redirect.vb` file to the project.
+* Add the `Outlook-Redirect.vb` file to the project.
 
 * Build ribbon customizations as required. `Redirect.png` is the icon that I used.
 
