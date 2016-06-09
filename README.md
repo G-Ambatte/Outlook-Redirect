@@ -57,6 +57,8 @@ Note: this approach uses Visual Basic for Applications, so *should* be compatibl
 
 ### Examples:
 
+Note: If using the macro version, remove `Globals.ThisAddin` from the function call.
+
 #### Explorer:
 	
 	Private Sub Redirect_Explorer_Ribbon_Button_Click(sender As Object, e As RibbonControlEventArgs) Handles Redirect_Explorer_Ribbon_Button.Click
