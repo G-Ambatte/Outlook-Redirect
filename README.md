@@ -52,12 +52,12 @@ Note: this approach uses Visual Basic for Applications, so *should* be compatibl
 
 ### Usage:
 
-	Redirect.AutoReply(RedirectionAddress as String, EmailToBeRepliedTo as MailItem, (Optional) Debug as Boolean)
+	Redirect.AutoReply(RedirectionAddress as String, MessageToBeRepliedTo as MailItem, (Optional) Debug as Boolean)
 	
 
 ### Examples:
 
-Note: If using the macro version, remove `Globals.ThisAddin` from the function call.
+Note: If using the macro version, remove `Globals.ThisAddin.` from the function call.
 
 #### Explorer:
 	
